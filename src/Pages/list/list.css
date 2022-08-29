@@ -1,0 +1,86 @@
+.listContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.listWrapper{
+  width: 100%;
+  max-width: 102.4rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.listSearch{
+  flex: 1;
+  background-color: #febb02;
+  border-radius: 1rem;
+  padding: 1rem;
+  position: sticky;
+  top: 1rem;
+  height: max-content;
+}
+
+.listResult{
+  flex: 3;
+}
+
+.listTitle{
+  font-size: 2rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.listItem{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.listItem>label{
+  font-size: 1.2rem;
+}
+
+.listItem>input{
+  height: 3rem;
+  border: none;
+  outline: none;
+  padding: 0.5rem;
+}
+
+.listItem>span{
+  height: 3rem;
+  padding: 0.5rem;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.listOptionsItem{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  color: #555;
+  font-size: 1.2rem;
+}
+
+.listOptionsInput{
+  width: 5rem;
+  padding: 0rem 0.5rem;
+}
+
+.listOptionsContainer{
+  padding: 1rem;
+}
+
+.listSearch>button{
+  padding: 1rem;
+  background-color: #459b2f;
+  color: #fff;
+  border: none;
+  width: 100%;
+  font-weight: 500;
+  cursor: pointer;
+}
